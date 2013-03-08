@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class Model;
+
 @interface ViewController : UIViewController
+
+@property Model *model;
+
+- (IBAction)buttonAction:(UIButton *)sender;
 
 @end

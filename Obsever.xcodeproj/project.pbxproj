@@ -23,6 +23,7 @@
 		BE46133716E09BFF00EA53A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE46131216E09BFF00EA53A1 /* Foundation.framework */; };
 		BE46133F16E09BFF00EA53A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE46133D16E09BFF00EA53A1 /* InfoPlist.strings */; };
 		BE46134216E09C0000EA53A1 /* ObseverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE46134116E09C0000EA53A1 /* ObseverTests.m */; };
+		BE46134E16E09C2C00EA53A1 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = BE46134D16E09C2C00EA53A1 /* Model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		BE46133E16E09BFF00EA53A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BE46134016E09BFF00EA53A1 /* ObseverTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObseverTests.h; sourceTree = "<group>"; };
 		BE46134116E09C0000EA53A1 /* ObseverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObseverTests.m; sourceTree = "<group>"; };
+		BE46134C16E09C2C00EA53A1 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		BE46134D16E09C2C00EA53A1 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,8 @@
 				BE46132B16E09BFF00EA53A1 /* ViewController.h */,
 				BE46132C16E09BFF00EA53A1 /* ViewController.m */,
 				BE46131716E09BFF00EA53A1 /* Supporting Files */,
+				BE46134C16E09C2C00EA53A1 /* Model.h */,
+				BE46134D16E09C2C00EA53A1 /* Model.m */,
 			);
 			path = Obsever;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 				BE46131D16E09BFF00EA53A1 /* main.m in Sources */,
 				BE46132116E09BFF00EA53A1 /* AppDelegate.m in Sources */,
 				BE46132D16E09BFF00EA53A1 /* ViewController.m in Sources */,
+				BE46134E16E09C2C00EA53A1 /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

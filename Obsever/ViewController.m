@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "Model.h"
+typedef void (^tBlock)();
 
 @interface ViewController ()
 
@@ -14,16 +16,32 @@
 
 @implementation ViewController
 
+#pragma mark -
+#pragma mark -Controller
+
+- (IBAction)buttonAction:(UIButton *)sender {
+    [self.model change];
+}
+
+#pragma mark -
+#pragma mark -View
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    self.model = [Model new];
+    [self.model addObserver:self forKeyPath:@"color" options:NSKeyValueObservingOptionInitial context:@selector(update)];
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void*)context {
+    NSLog(@"%@",change);
+    NSLog(@"context %s",context);
+    [self performSelector:context withObject:nil afterDelay:0];
 }
-
+- (void)update {
+    NSLog(@"method update");
+    self.view.backgroundColor = self.model.color;
+}
 @end

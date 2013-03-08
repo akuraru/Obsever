@@ -7,6 +7,7 @@
 //
 
 #import "ObseverTests.h"
+#import "Model.h"
 
 @implementation ObseverTests
 
@@ -26,7 +27,11 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in ObseverTests");
+    Model* model = [Model new];
+    UIColor* color = model.color;
+    [model change];
+    
+    assert(model.color != color);
 }
 
 @end
