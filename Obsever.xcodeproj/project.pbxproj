@@ -24,6 +24,7 @@
 		BE46133F16E09BFF00EA53A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE46133D16E09BFF00EA53A1 /* InfoPlist.strings */; };
 		BE46134216E09C0000EA53A1 /* ObseverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE46134116E09C0000EA53A1 /* ObseverTests.m */; };
 		BE46134E16E09C2C00EA53A1 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = BE46134D16E09C2C00EA53A1 /* Model.m */; };
+		BEA774A816EB38180036EA6F /* ViewController+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA774A716EB38170036EA6F /* ViewController+Controller.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		BE46134116E09C0000EA53A1 /* ObseverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObseverTests.m; sourceTree = "<group>"; };
 		BE46134C16E09C2C00EA53A1 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
 		BE46134D16E09C2C00EA53A1 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		BEA774A616EB38170036EA6F /* ViewController+Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+Controller.h"; sourceTree = "<group>"; };
+		BEA774A716EB38170036EA6F /* ViewController+Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+Controller.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 				BE46132816E09BFF00EA53A1 /* MainStoryboard.storyboard */,
 				BE46132B16E09BFF00EA53A1 /* ViewController.h */,
 				BE46132C16E09BFF00EA53A1 /* ViewController.m */,
+				BEA774A616EB38170036EA6F /* ViewController+Controller.h */,
+				BEA774A716EB38170036EA6F /* ViewController+Controller.m */,
 				BE46131716E09BFF00EA53A1 /* Supporting Files */,
 				BE46134C16E09C2C00EA53A1 /* Model.h */,
 				BE46134D16E09C2C00EA53A1 /* Model.m */,
@@ -279,6 +284,7 @@
 				BE46132116E09BFF00EA53A1 /* AppDelegate.m in Sources */,
 				BE46132D16E09BFF00EA53A1 /* ViewController.m in Sources */,
 				BE46134E16E09C2C00EA53A1 /* Model.m in Sources */,
+				BEA774A816EB38180036EA6F /* ViewController+Controller.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +465,7 @@
 				BE46134716E09C0000EA53A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE46134816E09C0000EA53A1 /* Build configuration list for PBXNativeTarget "ObseverTests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +474,7 @@
 				BE46134A16E09C0000EA53A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

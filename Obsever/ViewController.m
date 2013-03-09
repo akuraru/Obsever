@@ -19,9 +19,7 @@ typedef void (^tBlock)();
 #pragma mark -
 #pragma mark -Controller
 
-- (IBAction)buttonAction:(UIButton *)sender {
-    [self.model change];
-}
+- (IBAction)buttonAction:(UIButton *)sender {}
 
 #pragma mark -
 #pragma mark -View
