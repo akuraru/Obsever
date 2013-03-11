@@ -7,39 +7,10 @@
 //
 
 #import "ViewController.h"
-#import "Model.h"
-typedef void (^tBlock)();
-
-@interface ViewController ()
-
-@end
 
 @implementation ViewController
 
-#pragma mark -
-#pragma mark -Controller
-
+// 仮実装．本当の実装はViewController+Controllerで行う．このmethodは上書きされて実行時には存在しない
 - (IBAction)buttonAction:(UIButton *)sender {}
 
-#pragma mark -
-#pragma mark -View
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-    
-    self.model = [Model new];
-    [self.model addObserver:self forKeyPath:@"color" options:NSKeyValueObservingOptionInitial context:@selector(update)];
-    
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void*)context {
-    NSLog(@"%@",change);
-    NSLog(@"context %s",context);
-    [self performSelector:context withObject:nil afterDelay:0];
-}
-- (void)update {
-    NSLog(@"method update");
-    self.view.backgroundColor = self.model.color;
-}
 @end

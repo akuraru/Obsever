@@ -6,6 +6,7 @@
 //  Copyright (c) 2013年 P.I.akura. All rights reserved.
 //
 
+#import "ViewController+View.h"
 #import "ViewController+Controller.h"
 #import "Model.h"
 
@@ -13,6 +14,8 @@
 
 #pragma mark -
 #pragma mark -Controller
+
+// ViewControllerで行った仮実装を上書きしたいが，例外が出るので外すための処理
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wobjc-protocol-method-implementation"
 

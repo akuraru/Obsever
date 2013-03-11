@@ -25,6 +25,7 @@
 		BE46134216E09C0000EA53A1 /* ObseverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE46134116E09C0000EA53A1 /* ObseverTests.m */; };
 		BE46134E16E09C2C00EA53A1 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = BE46134D16E09C2C00EA53A1 /* Model.m */; };
 		BEA774A816EB38180036EA6F /* ViewController+Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA774A716EB38170036EA6F /* ViewController+Controller.m */; };
+		BEA774AB16ED53800036EA6F /* ViewController+View.m in Sources */ = {isa = PBXBuildFile; fileRef = BEA774AA16ED53800036EA6F /* ViewController+View.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,8 @@
 		BE46134D16E09C2C00EA53A1 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 		BEA774A616EB38170036EA6F /* ViewController+Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+Controller.h"; sourceTree = "<group>"; };
 		BEA774A716EB38170036EA6F /* ViewController+Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+Controller.m"; sourceTree = "<group>"; };
+		BEA774A916ED53800036EA6F /* ViewController+View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+View.h"; sourceTree = "<group>"; };
+		BEA774AA16ED53800036EA6F /* ViewController+View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+View.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,11 +131,13 @@
 				BE46132816E09BFF00EA53A1 /* MainStoryboard.storyboard */,
 				BE46132B16E09BFF00EA53A1 /* ViewController.h */,
 				BE46132C16E09BFF00EA53A1 /* ViewController.m */,
+				BE46134C16E09C2C00EA53A1 /* Model.h */,
+				BE46134D16E09C2C00EA53A1 /* Model.m */,
+				BEA774A916ED53800036EA6F /* ViewController+View.h */,
+				BEA774AA16ED53800036EA6F /* ViewController+View.m */,
 				BEA774A616EB38170036EA6F /* ViewController+Controller.h */,
 				BEA774A716EB38170036EA6F /* ViewController+Controller.m */,
 				BE46131716E09BFF00EA53A1 /* Supporting Files */,
-				BE46134C16E09C2C00EA53A1 /* Model.h */,
-				BE46134D16E09C2C00EA53A1 /* Model.m */,
 			);
 			path = Obsever;
 			sourceTree = "<group>";
@@ -285,6 +290,7 @@
 				BE46132D16E09BFF00EA53A1 /* ViewController.m in Sources */,
 				BE46134E16E09C2C00EA53A1 /* Model.m in Sources */,
 				BEA774A816EB38180036EA6F /* ViewController+Controller.m in Sources */,
+				BEA774AB16ED53800036EA6F /* ViewController+View.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
